@@ -9,13 +9,41 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 
+
+
+
+
 /// @custom:security-contact daolabb@gmail.com
-contract Trustify is ERC20, ERC20Burnable, ERC20Pausable, Ownable, ERC20Permit, ERC20Votes {
+
+
+contract Trustify is ERC20, ERC20Burnable, ERC20Pausable, Ownable, ERC20Permit, ERC20Votes 
+
+{
+
+    // Definición de Variables
+
+    uint8 token_compra;  // variable que toma la cantidad de tokens asignados al validar la entrega
+    string status; // Vaarible que detalla el estatus del usuario ( Principiante, Propulsor y Embajador)
+    uint8 total_token; //Acumulado de tokens (Por adreesss)
+
+   
+
+
+
     constructor(address initialOwner)
         ERC20("trustify", "TRUS")
         Ownable(initialOwner)
         ERC20Permit("trustify")
     {}
+
+    // Función de asignación de tokens por compra validada - Grupo 1
+
+
+
+
+    // Función de asignación de status - Grupo 2
+
+    
 
     function pause() public onlyOwner {
         _pause();
