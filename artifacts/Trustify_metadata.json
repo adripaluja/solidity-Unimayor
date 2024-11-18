@@ -1546,11 +1546,11 @@
 			]
 		},
 		"trustify.sol": {
-			"keccak256": "0x7ed88444de86855e763fc7743badf22d3e6a96d73e8a00d800f44e8bc47f4db3",
+			"keccak256": "0x7fe1cb98d3916a7b138bbd786211a7915c586df1aa5c10e1a51c48fc3a4c541a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://906ba0135aca168b708830f5967a92f8bcedead1da2b7cc3ad22210d280c3428",
-				"dweb:/ipfs/QmTCB7974hbRrS1uWCQGDqEQYrQFGtW4yfWYsSPH5xvhbw"
+				"bzz-raw://5118bdc8057caeb19d3b446c1df3588c6302fcb3a3dbde6152851027bebeb6e2",
+				"dweb:/ipfs/QmZ7yh9ixEtxUHefK4WfL8giJk5WSzZo61o25T4j4rN91F"
 			]
 		}
 	},
