@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -34,7 +34,7 @@
 		"compilationTarget": {
 			"hola_mundo.sol": "hola_mundo"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"hola_mundo.sol": {
-			"keccak256": "0xd379a7323c01a30e7ef3e95c0d67715de03342c99621115e1a097e208a394265",
+			"keccak256": "0x3089ad88f04756606ccc14569217074e384051bd7ac71ef3a2ef88ad777bae85",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://83d4f6eceedb288b801745d7dece57df4f4dc2e3e8a20f1d6df1822d728f132d",
-				"dweb:/ipfs/QmNXH6w77PcKtsgejeZm77BWpLRQYiT6gAHSY3c7vHvbFJ"
+				"bzz-raw://ec75bf5e3fa7abf31ab8bb824fd2600a891e54bca3e99694b38c7079bcd823d0",
+				"dweb:/ipfs/QmQn2coq5zKQ45WQQdBen3emKuScSEMvJc7kVXfMMLuSgF"
 			]
 		}
 	},
