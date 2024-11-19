@@ -15,4 +15,8 @@ contract hola_mundo_dinamico {
         Saludo_d = _nuevoSaludo;
     }
 
+      function guardarSaludo1(string memory _nuevoSaludo) public {
+        Saludo_e = _nuevoSaludo;
+    }
+
 }

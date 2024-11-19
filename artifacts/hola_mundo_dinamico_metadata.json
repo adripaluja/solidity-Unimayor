@@ -32,6 +32,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nuevoSaludo",
+						"type": "string"
+					}
+				],
+				"name": "guardarSaludo1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "leerSaludo",
 				"outputs": [
@@ -73,11 +86,11 @@
 	},
 	"sources": {
 		"hola_dinamico.sol": {
-			"keccak256": "0x9e555306743bf41c1c13345b7fd0b4f539502f1f5d81ed61a972433d2d6d8862",
+			"keccak256": "0xf27a0daaa3745c88954eaf7af19835f4fea47865c4287f13812841150d36fa9a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ab922b87d8d443d553dab25a551d1c4befd88a47b18647703fc4d9186300cb5f",
-				"dweb:/ipfs/QmYW59j9DqUNSXL4HRZjxr5nAGS98if7CcVVgKg7cFBfzw"
+				"bzz-raw://44fc30c01e4e223aa71ebfda5bae5daff5f345a59753b8b59dd8f0b3623ba460",
+				"dweb:/ipfs/QmPaeioTe1iuwScLdEjWFb2EReppixiRzzbFoi9F7C9e11"
 			]
 		}
 	},
